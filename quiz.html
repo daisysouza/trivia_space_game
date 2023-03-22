@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Trivia</title>
+
+    <link rel="stylesheet" href="quiz.css">
+
+</head>
+
+<body>
+    <section class="title">
+        <h1 id="title">Space Trivia</h1>
+    </section>
+
+    <!-- container quiz -->
+    <section class="quiz-container">
+
+        <div id="quiz-container">
+            <!--question container-->
+            <div class="questions">
+                <h2 id="question"></h2>
+                <ol type="A">
+                    <li class="option"><span id="option0" onclick="calcScore(this)"></span></li>
+                    <li class="option"><span id="option1" onclick="calcScore(this)"></span></li>
+                    <li class="option"><span id="option2" onclick="calcScore(this)"></span></li>
+                    <li class="option"><span id="option3" onclick="calcScore(this)"></span></li>
+                </ol>
+                <h4 id="stat"></h4>
+            </div>
+    </section>
+
+    <section class="button">
+        <div class="buttons">
+            <button type="button" class="next">Seguinte</button>
+        </div>
+
+    </section>
+
+    <!-- pontuação -->
+    <section class="scoreboard">
+        <div id="scoreboard">
+            <h2 id="score-title">Sua pontuação:</h2>
+            <h2 id="score"></h2>
+            <button type="button" id="score-btn" onclick="backToQuiz()">Tentar de novo!</button>
+            <button type="button" id="check-answer" onclick="checkAnswer()">Conferir respostas</button>
+        </div>
+    </section>
+
+    <!-- respostas -->
+    <section class="answerBank">
+    <div id="answerBank">
+        <h2>Respostas:</h2>
+        <ol type="1" id="answers">
+        </ol>
+
+        <button type="button" id="score-btn" onclick="backToQuiz()">Jogar de novo!</button>
+    </div>
+    </section>
+
+    <script src="quiz.js"></script>
+
+</body>
+
+</html>
