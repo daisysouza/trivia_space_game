@@ -51,7 +51,7 @@ function displayQuestion(){
     option1.innerHTML=questionBank[i].option[1];
     option2.innerHTML=questionBank[i].option[2];
     option3.innerHTML=questionBank[i].option[3];
-    stat.innerHTML= "Questão"+' '+(i+1)+' '+'de'+' '+questionBank.length;
+    stat.innerHTML= "Question"+' '+(i+1)+' '+'of'+' '+questionBank.length;
 }
 
 //function calcular pontuação
@@ -76,7 +76,7 @@ function nextQuestion(){
     }
     else{
         points.innerHTML=score+ '/'+ questionBank.length;
-        quizContainer.style.display='flex';
+        quizContainer.style.display='none';
         scoreboard.style.display='block'
     }
 }
