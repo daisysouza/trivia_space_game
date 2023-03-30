@@ -1,7 +1,7 @@
 # SPACE-TRIVIA
-Projeto quiz com linguagens HTML, CSS e Javascript.
+Projeto trivia - HTML, CSS e Javascript (Neste projeto foi permitido o uso de bibliotecas ou frameworks, apenas vanilla JavaScript). Projeto desenvolvido durante a Pré-Admissão do bootcamp de Desenvolvimento Web da <a href="https://www.laboratoria.la/br">Laboratória</a> feito em dupla com <a href="https://github.com/KarenMarks87">Karen Marks</a>  
 
 ![prototipo](/img/prototipo.jpg)
 ![trivia](/img/tela-inicio-trivia.jpg)
 
-[Space Trivia - Veja um exemplo do jogo aqui: ](https://inquisitive-panda-4aea4a.netlify.app/)
+🔗[Link da aplicação](https://inquisitive-panda-4aea4a.netlify.app/)🔗
